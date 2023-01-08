@@ -1,0 +1,16 @@
+
+#??????
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/reggie
+    username: root
+    password: root
+
+
+
+# 设置对象的表的前缀：这里设置的表不要前缀，（拓展知识）
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix:
